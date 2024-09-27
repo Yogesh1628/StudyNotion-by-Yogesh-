@@ -1,7 +1,5 @@
 # StudyNotion Online Education Platform (MERN App) [Website Link](https://studynotion-frontend.vercel.app/)
 
-![Main Page](images/mainpage.png)
-
 ## Project Description
 
 StudyNotion is a fully functional ed-tech platform that enables users to create, consume,
@@ -36,11 +34,6 @@ showcase their expertise. In the following sections, we will delve into the tech
 of the platform, which will provide a comprehensive understanding of the platform's
 features and functionalities.
 
-## System Architecture
-
-The StudyNotion ed-tech platform consists of three main components: the front end, the
-back end, and the database. The platform follows a client-server architecture, with the
-front end serving as the client and the back end and database serving as the server.
 
 ### Front-end 
 
@@ -63,13 +56,6 @@ provides a flexible and scalable data storage solution. MongoDB allows for the s
 unstructured and semi-structured data. The database stores the course content, user data, and other
 relevant information related to the platform.
 
-
-### Architecture Diagram
-
-Here is a high-level diagram that illustrates the architecture of the StudyNotion ed-tech
-platform:
-
-![Architecture](images/architecture.png)
 
 ## Front End
 
@@ -168,7 +154,6 @@ for an ed-tech platform, with a focus on security, reliability, and ease of use.
 right frameworks, libraries, and tools, we can ensure that the platform functions smoothly
 and provides an optimal user experience for all its users.
 
-![Database Schema](images/schema.png)
 
 ## API Design
 
@@ -201,12 +186,4 @@ Sample API requests and responses:
    * Response: The updated course
 5. DELETE /api/courses/:id: Delete a course by ID
    * Response: A success message indicating that the course has been deleted.
-
-In conclusion, the REST API design for the StudyNotion ed-tech platform is a crucial part
-of the project. The API endpoints and their functionalities are designed to ensure seamless
-communication between the front-end and back-end of the application. By following
-RESTful principles, the API will be scalable, maintainable, and reliable. The sample API
-requests and responses provided above illustrate how each endpoint will function and
-what kind of data it will accept or return. With this API design, StudyNotion will be able to
-provide a smooth user experience while ensuring security and stability.
 
